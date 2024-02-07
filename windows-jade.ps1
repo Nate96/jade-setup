@@ -33,7 +33,7 @@ git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data
 # https://neovim.io/
 # REMINDER: serialise Packer.lua and PackerSync
 winget install Neovim.Neovim
-cd ~/AppData/Local/nvim
+cd ~/AppData/Local/
 git clone https://github.com/Nate96/nvim
 
 mkdir ~/jade
