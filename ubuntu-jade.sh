@@ -17,11 +17,13 @@ sudo apt-get install ripgrep
 git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
 
 # install gcc
-sudo apt install build-essentia
+sudo apt install gcc
 
 # install nvim
+sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt install neovim
 
+mkdir ~/.config
 cd ~/.config
 
 # clone config
