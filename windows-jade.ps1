@@ -27,7 +27,9 @@ winget install BurntSushi.ripgrep.MSVC
 # install packer
 git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
 
-# install gcc - https://www.freecodecamp.org/news/how-to-install-c-and-cpp-compiler-on-windows/
+install gcc - https://www.freecodecamp.org/news/how-to-install-c-and-cpp-compiler-on-windows/
+
+winget install GitHub.cli
 
 # install NeoVim 9.2
 # https://neovim.io/
