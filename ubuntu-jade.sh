@@ -29,6 +29,4 @@ cd ~/.config
 # clone config
 git clone https://github.com/Nate96/nvim.git
 
-mkdir ~/jade
-
 cd ~
