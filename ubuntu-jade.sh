@@ -1,6 +1,8 @@
 sudo apt update
 sudo apt install up
 
+sudo apt install build-essiential
+
 # installing Python
 sudo apt install python3
 sudo apt install python3.10-venv
