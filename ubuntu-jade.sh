@@ -1,7 +1,9 @@
 sudo apt update
+sudo apt install up
 
 # installing Python
 sudo apt install python3
+sudo apt install python3.10-venv
 
 # install node
 sudo apt install nodejs
