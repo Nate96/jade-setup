@@ -1,7 +1,5 @@
 sudo apt update
-sudo apt install up
-
-sudo apt install build-essiential
+sudo apt install build-essential
 
 # installing Python
 sudo apt install python3
