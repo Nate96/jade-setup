@@ -1,6 +1,9 @@
 sudo apt update
 sudo apt install build-essential
 
+# install fd-find
+sudo apt install fd-find
+
 # installing Python
 sudo apt install python3
 sudo apt install python3.10-venv
