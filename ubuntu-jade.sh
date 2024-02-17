@@ -1,6 +1,8 @@
 sudo apt update
+sudo apt install build-essential
 
-sudo apt install build-essiential
+# install fd-find
+sudo apt install fd-find
 
 # installing Python
 sudo apt install python3
@@ -18,7 +20,8 @@ sudo apt install lua5.3
 sudo apt-get install ripgrep
 
 # install packer
-git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 
 # install gcc
 sudo apt install gcc
