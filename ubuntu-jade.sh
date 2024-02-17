@@ -1,5 +1,4 @@
 sudo apt update
-sudo apt install up
 
 sudo apt install build-essiential
 
@@ -8,7 +7,8 @@ sudo apt install python3
 sudo apt install python3.10-venv
 
 # install node
-sudo apt install nodejs
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+nvm install --lts
 
 # install lua
 sudo apt install lua5.3
