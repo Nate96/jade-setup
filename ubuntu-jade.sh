@@ -1,6 +1,9 @@
 sudo apt update
 sudo apt install build-essential
 
+# install utilities for WSL
+sudo apt install wslu
+
 # install fd-find
 sudo apt install fd-find
 
