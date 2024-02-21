@@ -4,6 +4,9 @@ sudo apt install build-essential
 # install utilities for WSL
 sudo apt install wslu
 
+# install dos2unix
+sudo apt-get install dos2unix
+
 # install fd-find
 sudo apt install fd-find
 
