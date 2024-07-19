@@ -21,9 +21,12 @@ nvm install --lts
 # install lua
 sudo apt install lua5.3
 
-# #install repgrep
+# #install ripgrep
 # https://github.com/BurntSushi/ripgrep
 sudo apt-get install ripgrep
+
+# install sqlite
+sudo apt install sqlite3
 
 # install packer
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
