@@ -11,6 +11,13 @@ Add-AppxPackage Microsoft.VCLibs.x64.14.00.Desktop.appx
 Add-AppxPackage Microsoft.UI.Xaml.2.7.x64.appx
 Add-AppxPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
 
+# Install Choco
+# https://chocolatey.org/
+Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
+
+# install gcc
+choco install mingw
+
 # install Python
 winget install -e --id Python.Python.3.10
 
@@ -20,16 +27,16 @@ winget install -e --id OpenJS.NodeJS
 # install lua
 winget install "lua for windows"
 
+# Install Git
+winget install --id Git.Git -e --source winget
+winget install GitHub.cli
+
 # install repgrep
 # https://github.com/BurntSushi/ripgrep
 winget install BurntSushi.ripgrep.MSVC
 
 # install packer
 git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
-
-install gcc - https://www.freecodecamp.org/news/how-to-install-c-and-cpp-compiler-on-windows/
-
-winget install GitHub.cli
 
 # install NeoVim 9.2
 # https://neovim.io/
