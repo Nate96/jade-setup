@@ -22,7 +22,10 @@ choco install mingw
 winget install -e --id Python.Python.3.10
 
 # install node
-winget install -e --id OpenJS.NodeJS
+# winget install -e --id OpenJS.NodeJS
+
+# install dotnet
+winget install Microsoft.DotNet.SDK.8
 
 # install lua
 winget install "lua for windows"
