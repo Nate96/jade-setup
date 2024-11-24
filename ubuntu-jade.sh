@@ -45,4 +45,8 @@ cd ~/.config
 # clone config
 git clone https://github.com/Nate96/nvim.git
 
+sudo add-apt-repository ppa:papirus/papirus
+sudo apt-get update
+sudo apt-get install papirus-icon-theme  # Papirus, Papirus-Dark, and Papirus-Light
+
 cd ~
