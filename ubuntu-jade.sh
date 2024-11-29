@@ -36,7 +36,6 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 sudo apt install gcc
 
 # install nvim
-sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt install neovim
 
 mkdir ~/.config
