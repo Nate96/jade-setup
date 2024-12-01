@@ -24,3 +24,6 @@ brew install dotnet
 
 # insall op font
 brew install --cask font-open-dyslexic-nerd-font
+
+# install ripgrep: https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
+brew install ripgrep
