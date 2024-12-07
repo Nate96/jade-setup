@@ -2,7 +2,6 @@
 # https://brew.sh/
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-
 # install Git
 brew install git
 
@@ -27,3 +26,5 @@ brew install --cask font-open-dyslexic-nerd-font
 
 # install ripgrep: https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
 brew install ripgrep
+
+brew install --cask iterm2
