@@ -11,6 +11,9 @@ Add-AppxPackage Microsoft.VCLibs.x64.14.00.Desktop.appx
 Add-AppxPackage Microsoft.UI.Xaml.2.7.x64.appx
 Add-AppxPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
 
+# Install oh-my-zsh https://ohmyz.sh/
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
 # Install Choco
 # https://chocolatey.org/
 Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex

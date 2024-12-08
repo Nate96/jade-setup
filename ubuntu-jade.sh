@@ -1,6 +1,9 @@
 sudo apt update
 sudo apt install build-essential
 
+# Install oh-my-zsh https://ohmyz.sh/
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # install utilities for WSL
 sudo apt install wslu
 
