@@ -51,6 +51,7 @@ sudo add-apt-repository ppa:papirus/papirus
 sudo apt-get update
 sudo apt-get install papirus-icon-theme  # Papirus, Papirus-Dark, and Papirus-Light
 
-sudo apt install zsh -y
+# install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 cd ~
