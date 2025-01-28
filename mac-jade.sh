@@ -18,6 +18,16 @@ brew install NeoVim
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 
+# install ripgrep: https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
+brew install ripgrep
+
+cd ~/.config
+
+# NeoVim Config
+git clone https://github.com/Nate96/nvim.git
+
+cd ~
+
 # install sqlite
 brew install sqlite
 
@@ -27,7 +37,8 @@ brew install dotnet
 # insall op font
 brew install --cask font-open-dyslexic-nerd-font
 
-# install ripgrep: https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
-brew install ripgrep
+brew install tmux
 
 brew install --cask iterm2
+
+gh auth login
