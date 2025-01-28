@@ -1,9 +1,6 @@
 sudo apt update
 sudo apt install build-essential
 
-# Install oh-my-zsh https://ohmyz.sh/
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 # install utilities for WSL
 sudo apt install wslu
 
@@ -51,7 +48,8 @@ sudo add-apt-repository ppa:papirus/papirus
 sudo apt-get update
 sudo apt-get install papirus-icon-theme  # Papirus, Papirus-Dark, and Papirus-Light
 
-# install oh-my-zsh
+# Install oh-my-zsh 
+# https://ohmyz.sh/
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 cd ~
