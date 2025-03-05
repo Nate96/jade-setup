@@ -48,8 +48,16 @@ sudo add-apt-repository ppa:papirus/papirus
 sudo apt-get update
 sudo apt-get install papirus-icon-theme  # Papirus, Papirus-Dark, and Papirus-Light
 
+# install zsh
+# https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+sudo apt install zsh
+
 # Install oh-my-zsh 
 # https://ohmyz.sh/
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# install tmux
+# https://github.com/tmux/tmux/wiki
+sudo apt install tmux
 
 cd ~
