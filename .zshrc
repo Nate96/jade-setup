@@ -67,13 +67,10 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 alias p="Python3"
-alias confghost="nvim ~/Library/Application\ Support/com.mitchellh.ghostty/config"
+alias confghost="nvim {replace_me}/config"
 alias confzsh="nvim ~/.zshrc"
 alias nv="nvim"
-alias tt='uv run /Users/nbraukhoff/time-tracker/tt.py'
-alias tt='uv run /Users/nbraukhoff/time-tracker/tt.py'
+alias tt='uv run {replace_me}/time-tracker/tt.py'
 
-alias testy="fd | entr pytest"
-alias ftest="make test && make format"
 alias lg="lazygit"
 alias prr='copilot --allow-all-tools -p "Could you please perform a comprehensive PR review for the current branch? Please check code quality, logic, potential bugs, and also double-check spelling and grammar in comments and documentation. Thank you!"'
