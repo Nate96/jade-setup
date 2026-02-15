@@ -5,12 +5,18 @@
 #font-size=12
 #font-family="OpenDyslexicM Nerd Font Mono"
 
+# Colors:
+# Gray = #32302f
+
 cursor-style-blink=true
 
-background-opacity=0.8
-background="black"
+background-opacity=.80
+background="#32302f"
 background-blur=true
 
 shell-integration-features=no-cursor
 cursor-style=block
 cursor-opacity=1
+
+window-padding-x=10
+window-padding-y=10
